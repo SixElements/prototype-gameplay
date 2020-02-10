@@ -1,0 +1,69 @@
+svg rect[class="hp-background"] {
+    fill: darkslategray;
+    rx: 5;
+    ry: 5;
+}
+
+svg rect[class="hp"] {
+    fill: red;
+    rx: 5;
+    ry: 5;
+    transition: all 1000ms ease-in-out;
+}
+
+svg *[class="damage"] {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+svg image{
+    transition: all 700ms ease-in-out;
+}
+
+svg *[spell] {
+	/*transform-origin: 140px 270px;*/
+	/*animation: turn 2s linear infinite;*/
+}
+
+svg *[spell="0"] {
+
+}
+
+svg *[spell="1"] {
+
+}
+
+svg *[spell="2"] {
+
+}
+
+@keyframes turn {
+	from {
+		transform: rotate(0);
+	}
+
+	50% {
+		transform: rotate(180deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate(-1px, 0);
+    }
+    
+    20%, 80% {
+      transform: translate(2px, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate(-4px, 0);
+    }
+  
+    40%, 60% {
+      transform: translate(4px, 0);
+    }
+}
