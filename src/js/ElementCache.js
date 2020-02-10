@@ -1,5 +1,4 @@
 import { ElementContainer } from "./ElementContainer.js";
-import { ElementRepository } from "./ElementRepository.js";
 
 export class ElementCache extends ElementContainer{
 

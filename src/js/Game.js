@@ -1,7 +1,4 @@
-import AssetProvider from "./AssetProvider.js";
-import { ElementCache, SpellCache, StackedElementCache } from "./ElementCache.js";
-import { SpriteEntity } from "./Entity.js";
-import { Enemy, Owl, Spider, Tentacle } from "./Enemy.js";
+import { SpellCache, StackedElementCache } from "./ElementCache.js";
 import { SpellBuilder } from "./SpellBuilder.js";
 import { ElementRepository } from "./ElementRepository.js";
 import { Levels } from "./Levels.js";

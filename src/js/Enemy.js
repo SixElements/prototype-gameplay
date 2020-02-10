@@ -1,4 +1,4 @@
-import { Unit } from "./unit.js";
+import { Unit } from "./Unit.js";
 import { ElementRepository } from "./ElementRepository.js";
 
 export class Enemy extends Unit {
